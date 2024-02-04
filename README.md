@@ -3,9 +3,9 @@
 Testing pyOpenCL in a simple GPU simulation.
 On my computer, the GPU version can hundle 10 000 points in real time. To compare, 100 points on CPU don't run in realtime (with Python).
 
-Forked from [PyGLViewer](https://gitlab.inria.fr/elan-public-code/pyglviewer), here is the original README:
-
 ![demo](screenshot_000000000.png)
+
+Forked from [PyGLViewer](https://gitlab.inria.fr/elan-public-code/pyglviewer), here is the original README:
 
 # PyGLViewer
 
