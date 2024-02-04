@@ -1,3 +1,9 @@
+# ClothGPU
+
+Testing pyOpenCL in a simple GPU simulation.
+On my computer, the GPU version can hundle 10 000 points in real time. To compare, 100 points on CPU don't run in realtime (with Python).
+
+Forked from [PyGLViewer](https://gitlab.inria.fr/elan-public-code/pyglviewer), here is the original README:
 
 # PyGLViewer
 
@@ -15,11 +21,12 @@ This is a simple python OpenGL viewer designed to have a quick visualization of 
 * Python3
 * GLFW3
 * OpenGL
+* OpenCL (added for ClothGPU simulation)
 
 To install them (on Ubuntu) :
 ```
 sudo apt-get install freeglut3 freeglut3-dev mesa-utils python3 python3-setuptools libglfw3-dev libassimp-dev python3-pip
-pip3 install numpy Pillow PyOpenGL PyOpenGL-accelerate glfw scipy
+pip3 install numpy Pillow PyOpenGL PyOpenGL-accelerate glfw scipy pyopencl
 ```
 
 ### Test
