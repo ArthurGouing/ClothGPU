@@ -104,7 +104,7 @@ class ClothDynamicSystem_GPU(AbstractDynamicSystem):
         # forces
 
         # Animations parameters
-        self.substep = 150
+        self.substep = 250
         self.delta = 1./(self.substep * 24.)
         self.E = 1e5 # Contact (young modulus of sphere)
         self.l0 = 10/(sqrt(mesh.nbVertices)-1)

@@ -36,7 +36,7 @@ def main():
     # Parameters
     os.system("PYOPENCL_COMPILER_OUTPUT=1")
     device = "GPU"
-    n = 200 # 00x100 = 10 000 | 300x300 = 100 000 | 700x700 = 490 000  
+    n = 100 # 00x100 = 10 000 | 300x300 = 100 000 | 700x700 = 490 000  
     # Scene
     clothdynamic(viewer, device, n)  # l'objectif c'est 100 !!!
     
