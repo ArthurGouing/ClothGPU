@@ -5,6 +5,8 @@ On my computer, the GPU version can hundle 10 000 points in real time. To compar
 
 Forked from [PyGLViewer](https://gitlab.inria.fr/elan-public-code/pyglviewer), here is the original README:
 
+![demo](screenshot_000000000.png)
+
 # PyGLViewer
 
 This is a simple python OpenGL viewer designed to have a quick visualization of the results of the simulations. The goal is *not* to do efficient/marvelous renderings, although you can tune a bit the viewer if you want.
