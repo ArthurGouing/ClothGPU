@@ -1,7 +1,7 @@
 # ClothGPU
 
 Testing pyOpenCL in a simple GPU simulation.
-On my computer, the GPU version can hundle 10 000 points in real time. To compare, 100 points on CPU don't run in realtime (with Python).
+On my computer, the GPU version can hundle 100 000 points in real time. To compare, 100 points on CPU don't run in realtime (with Python).
 
 ![demo](screenshot_000000000.png)
 
